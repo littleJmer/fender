@@ -1,0 +1,16 @@
+# Dockerfile.test
+FROM node:18-alpine
+
+WORKDIR /usr/src/app
+
+COPY package.json .
+
+RUN npm install
+
+COPY . .
+
+RUN pwd
+
+RUN ls -la
+
+CMD ["npm", "run", "coverage"]
