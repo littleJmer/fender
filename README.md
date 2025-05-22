@@ -43,6 +43,21 @@ To stop and remove the containers:
 ```bash
 sh stop.sh
 ```
+## Stopping the API
+
+If you can not execute some script please run the following command: 
+
+```bash
+chmod +x SCRIPT_NOT_RUNNING_NAME.sh
+```
+
+## Running Unit Test Cases
+
+To run the unit test cases:
+
+```bash
+sh unit-test.sh
+```
 
 ## API Endpoints
 
