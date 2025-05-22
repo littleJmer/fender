@@ -43,7 +43,7 @@ To stop and remove the containers:
 ```bash
 sh stop.sh
 ```
-## Stopping the API
+## Can not run .sh
 
 If you can not execute some script please run the following command: 
 
